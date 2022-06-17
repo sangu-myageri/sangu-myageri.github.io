@@ -152,7 +152,7 @@
     margin-top: 20px;
 }
 
-.text-center {
+.text-center,.in-progress-img{
     text-align: center;
 }
 	    .fw-bold{
@@ -164,11 +164,34 @@
     justify-content: center;
     margin-top: 15px;
 }
+	    .in-progress h1 {
+			font-size: 5em;
+			font-weight: 600;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: cursive;
+		}
+
+		.in-progress-img img {
+			border-radius: 50%;
+			height: 200px;
+			width: 200px;
+			transform-origin: 65% 75%;
+			transition: transform 1s, filter .5s ease-out;
+			clip-path: polygon(83% 86.5%, 49% 20%, 17% 86%);
+			margin-top: -35px;
+		}
+
     </style>
 </head>
 
 <body>
-	<h1 class="text-center fw-bold">In Progress</h1>
+		<div class="in-progress">
+		<h1>In Progress</h1>
+		<div class="in-progress-img">
+			<img src="/in-progress.png" alt="">
+		</div>
+	</div>
     	<div class="vcenter">
 	<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light"
 	data-type="VERTICAL" data-vanity="sangameshmyageri" data-version="v1"><a class="badge-base__link LI-simple-link fw-bold"
