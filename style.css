@@ -97,11 +97,19 @@ nav.desktop-nav ul li a:hover {
         display: block;
     }
 
-    .nav-links, .nav-links.show {
-        width: 200px; /* Expanded width for visibility */
+    .desktop-nav {
+        display: none;
+    }
+    
+    .nav-links, .nav-links.active {
+        width: 60px;
     }
 
-    .nav-links ul li a:hover .link-text, .nav-links.show ul li a .link-text {
+    .nav-links:hover, .nav-links.active {
+        width: 200px;
+    }
+
+    .nav-links ul li a:hover .link-text, .nav-links.active ul li a .link-text {
         display: inline;
     }
 }
