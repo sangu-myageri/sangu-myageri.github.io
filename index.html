@@ -7,14 +7,15 @@
     <title>Sangamesh Myageri's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
 </head>
 
 <body>
     <header>
-        <h1>Sangamesh Myageri</h1>
-        <p>Drupal Developer</p>
-        <nav>
+        <div class="header-content">
+            <h1>Sangamesh Myageri</h1>
+            <p>Drupal Developer</p>
+        </div>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -25,78 +26,16 @@
         <div class="nav-icon">
             <i class="fas fa-bars"></i>
         </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="/"><i class="fas fa-home"></i><span class="link-text"> Home</span></a></li>
-                <li><a href="#about"><i class="fas fa-home"></i><span class="link-text">About</span></a></li>
-                <li><a href="#experience"><i class="fas fa-home"></i><span class="link-text">Experience</span></a></li>
-                <li><a href="#projects"><i class="fas fa-home"></i><span class="link-text"> Projects</span></a></li>
-                <li><a href="#contact"><i class="fas fa-home"></i><span class="link-text"> Contact</span></a></li>
-            </ul>
-        </div>
-
     </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Results-driven Drupal developer with 3 years of experience in designing, developing, and maintaining secure
-            and scalable web applications. Skilled in custom module development and theming. I am seeking a challenging
-            role to leverage my technical expertise and contribute to the success of a dynamic team.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
+    <div class="nav-links">
         <ul>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>Drupal 9 & 10, Module Development, LAMP Drupal Development</li>
-            <li>PHP, jQuery, Bootstrap</li>
-            <li>Jira</li>
+            <li><a href="#home"><i class="fas fa-home"></i><span class="link-text"> Home</span></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i><span class="link-text">About</span></a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i><span class="link-text">Experience</span></a></li>
+            <li><a href="#projects"><i class="fas fa-archive"></i><span class="link-text"> Projects</span></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i><span class="link-text"> Contact</span></a></li>
         </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <article>
-            <h3>Drupal Developer - Indegene, Bangalore</h3>
-            <p>Aug 2023 - Present</p>
-            <ul>
-                <li>Worked on SEO for Drupal applications.</li>
-                <li>Improved content strategy and digital marketing using Adobe analytics.</li>
-                <li>Developed dynamic pages using custom block types in node layout.</li>
-            </ul>
-        </article>
-
-        <!-- Additional experiences omitted for brevity -->
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div>
-            <h3>Opendata</h3>
-            <p><a href="https://opendata.cscl.co.in/">View Project</a></p>
-        </div>
-
-        <!-- Additional projects omitted for brevity -->
-    </section>
-
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li><a
-                    href="https://medium.com/sangamesh-myageri/implementing-mssql-in-as-the-database-for-drupal-9-a-comprehensive-guide-28c0e21d573e">Implementing
-                    MSSQL as the Database for Drupal 9: A Comprehensive Guide</a></li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: sangu@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/SangameshMyageri/">SangameshMyageri</a></p>
-    </section>
-
-    <footer>
-        <p>© 2024 Sangamesh Myageri</p>
-    </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
