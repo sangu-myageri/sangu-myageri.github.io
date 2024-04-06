@@ -52,40 +52,35 @@ nav.desktop-nav ul li a:hover {
 }
 
 .nav-links {
-    display: none;
     background-color: #FFD700;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 60px; /* Width of the side nav */
-    transition: width 0.5s;
+    width: 60px; /* Adjusted for visibility */
+    transition: transform 0.5s;
     z-index: 999;
+    transform: translateX(-100%);
 }
 
-.nav-links.active {
-    width: 200px; /* Width when expanded */
+.nav-links.show {
+    transform: translateX(0);
 }
 
 .nav-links ul {
     list-style: none;
-    padding: 20px 10px;
+    padding: 20px 0;
     margin: 0;
-    height: 100%;
 }
 
 .nav-links ul li {
-    padding: 15px 10px;
-    display: flex;
-    align-items: center;
+    padding: 10px;
+    text-align: center;
 }
 
 .nav-links ul li a {
     color: #333;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    width: 100%;
 }
 
 .nav-links ul li a .link-text {
@@ -93,8 +88,8 @@ nav.desktop-nav ul li a:hover {
     margin-left: 10px;
 }
 
-.nav-links.active ul li a .link-text {
-    display: block;
+.nav-links.show ul li a .link-text {
+    display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -102,19 +97,11 @@ nav.desktop-nav ul li a:hover {
         display: block;
     }
 
-    .desktop-nav {
-        display: none;
-    }
-    
-    .nav-links, .nav-links.active {
-        width: 60px;
+    .nav-links, .nav-links.show {
+        width: 200px; /* Expanded width for visibility */
     }
 
-    .nav-links:hover, .nav-links.active {
-        width: 200px;
-    }
-
-    .nav-links ul li a:hover .link-text, .nav-links.active ul li a .link-text {
+    .nav-links ul li a:hover .link-text, .nav-links.show ul li a .link-text {
         display: inline;
     }
 }
