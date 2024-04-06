@@ -1,115 +1,19 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fff;
+    padding-top: 56px; /* Adjusted to ensure content is not hidden behind the fixed navbar */
 }
 
-header {
-    background-color: #FFD700; /* Yellow theme */
-    padding: 20px 0;
-    color: #333;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 20px;
+.navbar-brand {
+    font-weight: bold;
+    color: #ffd700 !important; /* Yellow theme */
 }
 
-.header-content h1, .header-content p {
-    margin: 0;
+.navbar-light .navbar-nav .nav-link {
+    color: #ffd700; /* Yellow theme for nav links */
 }
 
-nav.desktop-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+.navbar-light .navbar-toggler {
+    color: #ffd700;
+    border-color: #ffd700;
 }
 
-nav.desktop-nav ul li {
-    margin: 0 15px;
-}
-
-nav.desktop-nav ul li a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-nav.desktop-nav ul li a:hover {
-    color: #fff;
-}
-
-.nav-icon {
-    display: none;
-    cursor: pointer;
-}
-
-.nav-links {
-    background-color: #FFD700;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 60px; /* Adjusted for visibility */
-    transition: transform 0.5s;
-    z-index: 999;
-    transform: translateX(-100%);
-}
-
-.nav-links.show {
-    transform: translateX(0);
-}
-
-.nav-links ul {
-    list-style: none;
-    padding: 20px 0;
-    margin: 0;
-}
-
-.nav-links ul li {
-    padding: 10px;
-    text-align: center;
-}
-
-.nav-links ul li a {
-    color: #333;
-    text-decoration: none;
-}
-
-.nav-links ul li a .link-text {
-    display: none;
-    margin-left: 10px;
-}
-
-.nav-links.show ul li a .link-text {
-    display: inline-block;
-}
-
-@media (max-width: 768px) {
-    .nav-icon {
-        display: block;
-    }
-
-    .desktop-nav {
-        display: none;
-    }
-    
-    .nav-links, .nav-links.active {
-        width: 60px;
-    }
-
-    .nav-links:hover, .nav-links.active {
-        width: 200px;
-    }
-
-    .nav-links ul li a:hover .link-text, .nav-links.active ul li a .link-text {
-        display: inline;
-    }
-}
+/* Additional custom styles can go here */
