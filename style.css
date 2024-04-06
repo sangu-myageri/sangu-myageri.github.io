@@ -1,19 +1,1 @@
-body {
-    padding-top: 56px; /* Adjusted to ensure content is not hidden behind the fixed navbar */
-}
 
-.navbar-brand {
-    font-weight: bold;
-    color: #ffd700 !important; /* Yellow theme */
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #ffd700; /* Yellow theme for nav links */
-}
-
-.navbar-light .navbar-toggler {
-    color: #ffd700;
-    border-color: #ffd700;
-}
-
-/* Additional custom styles can go here */
