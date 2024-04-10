@@ -8,6 +8,9 @@ body {
 }
 
 @media (max-width: 991.98px) {
+      .brand-container {
+    align-items:center;
+}
   .offcanvas-collapse {
     position: fixed;
     top: 56px; /* Height of navbar */
@@ -50,4 +53,16 @@ body {
 .bg-purple {
   background-color: #6f42c1;
 }
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+
+.navbar-brand, .job-role {
+  margin-bottom: 0; 
+}
+.job-role {
+    color:#fff;
+}
