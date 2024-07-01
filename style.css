@@ -66,3 +66,24 @@ body {
 .job-role {
     color:#fff;
 }
+
+.card-img-container {
+  overflow: hidden;
+  height: 200px; /* Height of the visible area */
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  height: auto; /* Ensure the image maintains aspect ratio */
+  transition: transform 6.5s ease;
+}
+
+.project-card:hover .project-img {
+  transform: translateY(calc(200px - 100%)); /* Adjust the transform to scroll only the required amount */
+}
+
+.project-card {
+  margin-bottom: 30px;
+}
+
