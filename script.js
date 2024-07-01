@@ -1,21 +1,17 @@
-// offcanvas-navbar js
-  (() => {
-  'use strict'
+$(document).ready(function() {
+  var navbarBrand = $('.navbar-brand');
 
-  document.querySelector('#navbarSideCollapse').addEventListener('click', () => {
-    document.querySelector('.offcanvas-collapse').classList.toggle('open')
-  })
-})()
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() > 50) { // Adjust the scroll value to your preference
+      navbarBrand.addClass('scrolled');
+      $('.job-role').hide();
+    } else {
+      navbarBrand.removeClass('scrolled');
+      $('.job-role').show();
+    }
+  });
 
-// $(document).ready(function() {
-//   $('.project-card').hover(
-//     function() {
-//       $(this).find('.project-img').css('transform', 'translateY(calc(200px - 100%))');
-//     },
-//     function() {
-//       $(this).find('.project-img').css('transform', 'translateY(0)');
-//     }
-//   );
-// });
-
-
+  $('#navbarSideCollapse').on('click', function() {
+    $('.offcanvas-collapse').toggleClass('open');
+  });
+});
