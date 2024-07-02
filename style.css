@@ -103,7 +103,8 @@ body {
 }
 
 .job-role {
-  color: #fff;
+    color: #fff;
+    font-size: 16px;
 }
 
 /* START ANIMATION OF LOGO */
