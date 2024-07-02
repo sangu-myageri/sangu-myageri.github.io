@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
   var navbarBrand = $('.navbar-brand');
 
-  $(window).on('scroll', function() {
+  $(window).on('scroll', function () {
     if ($(window).scrollTop() > 50) { // Adjust the scroll value to your preference
       navbarBrand.addClass('scrolled');
       $('.job-role').hide();
@@ -10,8 +10,23 @@ $(document).ready(function() {
       $('.job-role').show();
     }
   });
+  var previousScroll = 0;
+  var navbar = $('.navbar');
 
-  $('#navbarSideCollapse').on('click', function() {
+  $(window).on('scroll', function () {
+    var currentScroll = $(this).scrollTop();
+    if (currentScroll > previousScroll) {
+      // Scrolling down
+      navbar.addClass('navbar-hidden');
+    } else {
+      // Scrolling up
+      navbar.removeClass('navbar-hidden');
+    }
+    previousScroll = currentScroll;
+  });
+
+  $('#navbarSideCollapse').on('click', function () {
     $('.offcanvas-collapse').toggleClass('open');
   });
 });
+
