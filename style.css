@@ -27,6 +27,14 @@ body {
 .custom-nav .nav-link {
   color: hsla(0, 0%, 100%, .8);
 }
+/* Offset anchor targets for fixed navbar */
+:target::before {
+  content: "";
+  display: block;
+  height: 56px; /* Height of your fixed navbar */
+  margin-top: -56px; /* Negative value of the navbar height */
+}
+
 
 .custom-nav .nav-link.active,
 .navbar-brand:hover,
