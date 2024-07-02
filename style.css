@@ -240,6 +240,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .job-role{
+    display: none;
+  }
+  .offcanvas-collapse{
+    background-image: linear-gradient(90deg, #5318eb, #ab6ef9);;
+  }
   .hero-banner h1 {
     font-size: 2rem;
   }
@@ -249,6 +255,7 @@ body {
   }
 
   .hero-banner {
+    height: 100vh;
     padding: 80px 10px;
   }
 }
