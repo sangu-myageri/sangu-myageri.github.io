@@ -32,7 +32,7 @@ body {
   content: "";
   display: block;
   height: 56px; /* Height of your fixed navbar */
-  margin-top: -56px; /* Negative value of the navbar height */
+  margin-top: -60px; /* Negative value of the navbar height */
 }
 
 
