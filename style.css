@@ -280,15 +280,15 @@ body {
     font-size: 1rem;
     padding: 10px 15px;
   }
-  
+
   .about-lines-wrapper{
     padding-top: 40px;
   }
-  
+
   .about-line-2 {
     font-size: 30px;
   }
-  
+
   .about-line-3 {
     font-size: 25px;
   }
@@ -343,14 +343,14 @@ body {
 .navbar.fixed-bottom {
   display: flex;
   justify-content: space-around;
-  background: #fff;
+  background: #5318eb;
   border-top: 1px solid #ddd;
   padding: 10px 0;
 }
 
 .navbar.fixed-bottom .nav-link {
   text-align: center;
-  color: #6c757d;
+  color: #fff;
   font-size: 0.875rem;
 }
 
@@ -366,9 +366,21 @@ body {
 }
 
 .navbar.fixed-bottom .nav-link.active {
-  color: #007bff;
+  color: #fff;
 }
 
 .navbar.fixed-bottom .nav-link:hover {
-  color: #0056b3;
+  color: #ddd;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+  color: #6c757d;
 }
