@@ -53,9 +53,9 @@ body {
 }
 
 .heading {
-  /* color: #8b3dff; */
   color: #2b2a35;
   font-size: 44px;
+  padding-top:2rem ;
 }
 
 @media (max-width: 991.98px) {

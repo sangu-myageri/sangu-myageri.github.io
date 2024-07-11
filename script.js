@@ -9,6 +9,7 @@ $(document).ready(function () {
     $('#about').toggleClass('grey-bg');
     $('#projects').toggleClass('grey-bg');
     $('.heading').toggleClass('white-text');
+    $('.footer p').toggleClass('white-text');
     // Add more elements to toggle dark mode as needed
   });
 
