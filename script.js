@@ -1,4 +1,17 @@
 $(document).ready(function () {
+
+  // Dark mode toggle
+  $('#dark-mode-toggle').click(function () {
+    $('body').toggleClass('dark-mode');
+    $('.navbar').toggleClass('dark-mode');
+    $('.footer').toggleClass('dark-mode');
+    $('.hero-banner').toggleClass('dark-mode');
+    $('#about').toggleClass('grey-bg');
+    $('#projects').toggleClass('grey-bg');
+    $('.heading').toggleClass('white-text');
+    // Add more elements to toggle dark mode as needed
+  });
+
   var navbarBrand = $('.navbar-brand');
   var lastScrollTop = 0;
   var footerMenu = $('.navbar.fixed-bottom');
