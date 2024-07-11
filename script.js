@@ -1,16 +1,43 @@
 $(document).ready(function () {
 
+  // Function to apply dark mode
+  function applyDarkMode() {
+    $('body').addClass('dark-mode');
+    $('.navbar').addClass('dark-mode');
+    $('.footer').addClass('dark-mode');
+    $('.hero-banner').addClass('dark-mode');
+    $('#about').addClass('grey-bg');
+    $('#projects').addClass('grey-bg');
+    $('.heading').addClass('white-text');
+    $('.footer p').addClass('white-text');
+  }
+
+  // Function to remove dark mode
+  function removeDarkMode() {
+    $('body').removeClass('dark-mode');
+    $('.navbar').removeClass('dark-mode');
+    $('.footer').removeClass('dark-mode');
+    $('.hero-banner').removeClass('dark-mode');
+    $('#about').removeClass('grey-bg');
+    $('#projects').removeClass('grey-bg');
+    $('.heading').removeClass('white-text');
+    $('.footer p').removeClass('white-text');
+  }
+
+  // Check if dark mode is enabled in local storage
+  if (localStorage.getItem('darkMode') === 'enabled') {
+    applyDarkMode();
+  }
+
   // Dark mode toggle
   $('#dark-mode-toggle').click(function () {
-    $('body').toggleClass('dark-mode');
-    $('.navbar').toggleClass('dark-mode');
-    $('.footer').toggleClass('dark-mode');
-    $('.hero-banner').toggleClass('dark-mode');
-    $('#about').toggleClass('grey-bg');
-    $('#projects').toggleClass('grey-bg');
-    $('.heading').toggleClass('white-text');
-    $('.footer p').toggleClass('white-text');
-    // Add more elements to toggle dark mode as needed
+    if ($('body').hasClass('dark-mode')) {
+      removeDarkMode();
+      localStorage.setItem('darkMode', 'disabled');
+    } else {
+      applyDarkMode();
+      localStorage.setItem('darkMode', 'enabled');
+    }
   });
 
   var navbarBrand = $('.navbar-brand');
