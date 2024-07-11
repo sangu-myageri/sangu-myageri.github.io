@@ -39,5 +39,14 @@ body.dark-mode {
     border-color: #ffffff;
   }
   
+  @media (max-width: 991.98px) {
+    #dark-mode-toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 1050; /* Ensure it is above other elements */
+      color: #fff;
+    }
+  }
   /* Add more styles based on your requirements */
   
