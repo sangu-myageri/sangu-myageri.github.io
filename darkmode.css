@@ -1,54 +1,79 @@
 /* darkmode.css */
 
 /* General dark mode styles */
-#dark-mode-toggle{
-    color: #fff;
+#dark-mode-toggle {
+  color: #fff;
 }
+
 body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-  }
-  .grey-bg{
-    background-color:#3a3a3a;
-  }
-  .white-text{
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.grey-bg {
+  background-color: #3a3a3a;
+}
+
+.grey-text {
+  color: #cdcdcd;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.black-text {
+  color: #121212 !important;
+}
+
+.site-color {
+  color: #6b53ff;
+}
+
+.hero-banner .cta-btn {
+  transition: all 0.3s ease;
+}
+
+.dark-mode .hero-banner .cta-btn:hover {
+  color: #cdcdcd !important;
+  background-color: #121212 !important;
+}
+
+.navbar.dark-mode {
+  background-color: #333333;
+  background-image: linear-gradient(90deg, #1f1f1f, #3a3a3a);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+}
+
+.navbar.dark-mode .nav-link,
+.navbar.dark-mode .navbar-brand,
+.navbar.dark-mode .job-role {
+  color: #ffffff;
+}
+
+.footer.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Modify other elements as needed for dark mode */
+.hero-banner.dark-mode {
+  background-image: linear-gradient(90deg, #1f1f1f, #3a3a3a);
+}
+
+.about-circle-img img.dark-mode {
+  border-color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+  #dark-mode-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1050;
+    /* Ensure it is above other elements */
     color: #fff;
   }
-  
-  .navbar.dark-mode {
-    background-color: #333333;
-    background-image: linear-gradient(90deg, #1f1f1f, #3a3a3a);
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
-  }
-  
-  .navbar.dark-mode .nav-link,
-  .navbar.dark-mode .navbar-brand,
-  .navbar.dark-mode .job-role {
-    color: #ffffff;
-  }
-  
-  .footer.dark-mode {
-    background-color: #333333;
-    color: #ffffff;
-  }
-  
-  /* Modify other elements as needed for dark mode */
-  .hero-banner.dark-mode {
-    background-image: linear-gradient(90deg, #1f1f1f, #3a3a3a);
-  }
-  
-  .about-circle-img img.dark-mode {
-    border-color: #ffffff;
-  }
-  
-  @media (max-width: 991.98px) {
-    #dark-mode-toggle {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      z-index: 1050; /* Ensure it is above other elements */
-      color: #fff;
-    }
-  }
-  /* Add more styles based on your requirements */
-  
+}
+
+/* Add more styles based on your requirements */

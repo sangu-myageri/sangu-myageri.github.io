@@ -10,6 +10,11 @@ $(document).ready(function () {
     $('#projects').addClass('grey-bg');
     $('.heading').addClass('white-text');
     $('.footer p').addClass('white-text');
+    $('.initials').addClass('site-color');
+    $('.about-line-1').addClass('grey-text');
+    $('.hero-banner .cta-btn').addClass('black-text');
+    $('.hero-banner .cta-btn').addClass('btn-hover');
+    
   }
 
   // Function to remove dark mode
@@ -22,6 +27,10 @@ $(document).ready(function () {
     $('#projects').removeClass('grey-bg');
     $('.heading').removeClass('white-text');
     $('.footer p').removeClass('white-text');
+    $('.initials').removeClass('site-color');
+    $('.about-line-1').removeClass('grey-text');
+    $('.hero-banner .cta-btn').removeClass('black-text');
+    $('.hero-banner .cta-btn').removeClass('btn-hover');
   }
 
   // Check if dark mode is enabled in local storage
