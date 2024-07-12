@@ -9,9 +9,10 @@ $(document).ready(function () {
     $('#about').addClass('grey-bg');
     $('#projects').addClass('grey-bg');
     $('.heading').addClass('white-text');
-    $('.footer p').addClass('white-text');
     $('.initials').addClass('site-color');
     $('.about-line-1').addClass('grey-text');
+    $('#experience').css('background-color', '#121212').css('background-image', 'none');
+    $('footer').css('background-color', '#3a3a3a').css('background-image', 'none');
     $('.hero-banner .cta-btn').addClass('black-text');
     $('.hero-banner .cta-btn').addClass('btn-hover');
     $('.project-card').addClass('black-bg').removeClass('site-color-bg');
@@ -27,9 +28,10 @@ $(document).ready(function () {
     $('#about').removeClass('grey-bg');
     $('#projects').removeClass('grey-bg');
     $('.heading').removeClass('white-text');
-    $('.footer p').removeClass('white-text');
     $('.initials').removeClass('site-color');
     $('.about-line-1').removeClass('grey-text');
+    $('#experience').css('background-image', 'linear-gradient(90deg, #5318eb, #ab6ef9)');
+    $('footer').css('background-image', 'linear-gradient(90deg, #5318eb, #ab6ef9)');
     $('.hero-banner .cta-btn').removeClass('black-text');
     $('.hero-banner .cta-btn').removeClass('btn-hover');
     $('.project-card').addClass('site-color-bg').removeClass('black-bg');
