@@ -361,6 +361,9 @@ body {
   .about-line-3 {
     font-size: 25px;
   }
+  .marquee-item {
+    width: 300px;
+  }
 }
 
 /* ABOUT */
