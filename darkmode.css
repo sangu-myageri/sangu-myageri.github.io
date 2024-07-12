@@ -12,6 +12,7 @@ body.dark-mode {
 
 .grey-bg {
   background-color: #3a3a3a;
+  color: #fff;
 }
 
 .grey-text {
@@ -25,9 +26,16 @@ body.dark-mode {
 .black-text {
   color: #121212 !important;
 }
-
+.black-bg {
+  background-color: #121212 !important;
+  color: #fff;
+}
 .site-color {
   color: #6b53ff;
+}
+.site-color-bg {
+  background-color: #6b53ff;
+  color: #fff;
 }
 
 .hero-banner .cta-btn {

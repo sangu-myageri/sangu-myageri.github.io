@@ -180,33 +180,94 @@ body {
 }
 
 /* END ANIMATION OF LOGO */
+/* START OF PROJECT CARDS CSS */
 
-/* START OF PROJECT CARDS */
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite; /* Slow movement */
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 450px; /* Set the width of each card */
+}
+
+.project-info {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 .card-img-container {
   overflow: hidden;
   height: 200px;
-  /* Height of the visible area */
   position: relative;
 }
 
 .project-img {
   width: 100%;
   height: auto;
-  /* Ensure the image maintains aspect ratio */
   transition: transform 6.5s ease;
 }
 
 .project-card:hover .project-img {
   transform: translateY(calc(200px - 100%));
-  /* Adjust the transform to scroll only the required amount */
+  transition: transform 15s ease;
 }
 
 .project-card {
-  margin-bottom: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+#projects {
+  padding-bottom: 50px;
 }
 
-/* END OF PROJECT CARDS */
+/* .project-card:hover {
+  transform: scale(1.05);
+} */
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #999;
+}
+
+/* END OF PROJECT CARDS CSS */
+
+
+
 
 /* HERO BANNER */
 

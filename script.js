@@ -14,7 +14,8 @@ $(document).ready(function () {
     $('.about-line-1').addClass('grey-text');
     $('.hero-banner .cta-btn').addClass('black-text');
     $('.hero-banner .cta-btn').addClass('btn-hover');
-    
+    $('.project-card').addClass('black-bg').removeClass('site-color-bg');
+
   }
 
   // Function to remove dark mode
@@ -31,6 +32,7 @@ $(document).ready(function () {
     $('.about-line-1').removeClass('grey-text');
     $('.hero-banner .cta-btn').removeClass('black-text');
     $('.hero-banner .cta-btn').removeClass('btn-hover');
+    $('.project-card').addClass('site-color-bg').removeClass('black-bg');
   }
 
   // Check if dark mode is enabled in local storage
@@ -39,7 +41,8 @@ $(document).ready(function () {
   }
 
   // Dark mode toggle
-  $('#dark-mode-toggle').click(function () {
+  $('#dark-mode-toggle').click(function (e) {
+    e.preventDefault();
     if ($('body').hasClass('dark-mode')) {
       removeDarkMode();
       localStorage.setItem('darkMode', 'disabled');
