@@ -251,6 +251,9 @@ body {
   text-decoration: none;
   color: #6b53ff;
 }
+#social-media a:hover{
+  text-decoration: none;
+}
 
 .project-card {
   border-radius: 15px;
