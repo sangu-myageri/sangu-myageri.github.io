@@ -11,6 +11,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 body {
   padding-top: 56px;
 }
@@ -24,8 +25,10 @@ body {
 :target::before {
   content: "";
   display: block;
-  height: 56px; /* Height of your fixed navbar */
-  margin-top: -60px; /* Negative value of the navbar height */
+  height: 56px;
+  /* Height of your fixed navbar */
+  margin-top: -60px;
+  /* Negative value of the navbar height */
 }
 
 .maven-font {
@@ -54,7 +57,7 @@ body {
 .heading {
   color: #2b2a35;
   font-size: 44px;
-  padding-top:2rem ;
+  padding-top: 2rem;
 }
 
 @media (max-width: 991.98px) {
@@ -102,6 +105,7 @@ body {
   font-weight: 500;
   color: #343a40;
 }
+
 .navbar.fixed-bottom {
   display: flex;
   justify-content: space-around;
@@ -191,7 +195,8 @@ body {
 .marquee-content {
   display: flex;
   width: max-content;
-  animation: marquee 30s linear infinite; /* Slow movement */
+  animation: marquee 30s linear infinite;
+  /* Slow movement */
 }
 
 .marquee-item {
@@ -213,6 +218,7 @@ body {
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -240,7 +246,10 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  background-color: #6b53ff;
+  color: #fff;
 }
+
 #projects {
   padding-bottom: 50px;
 }
@@ -267,7 +276,7 @@ body {
 
 /* HERO BANNER */
 
-.hero-banner{
+.hero-banner {
   background-image: linear-gradient(90deg, #5318eb, #ab6ef9);
   font-family: "Maven Pro", sans-serif;
   color: white;
@@ -350,7 +359,7 @@ body {
     padding: 10px 15px;
   }
 
-  .about-lines-wrapper{
+  .about-lines-wrapper {
     padding-top: 40px;
   }
 
@@ -361,6 +370,7 @@ body {
   .about-line-3 {
     font-size: 25px;
   }
+
   .marquee-item {
     width: 300px;
   }
@@ -373,20 +383,21 @@ body {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-  } 
+  }
+
   .marquee-item {
     width: 450px;
   }
-  
+
   #about .row {
     align-items: center;
-    justify-content : center;
+    justify-content: center;
   }
-  
+
   .about-line-2 {
     font-size: 50px;
   }
-  
+
   .about-line-3 {
     font-size: 40px;
   }
@@ -396,7 +407,7 @@ body {
   border-radius: 50%;
 }
 
-#about{
+#about {
   padding: 50px 0;
 }
 
@@ -460,18 +471,22 @@ body {
 }
 
 /* EXPERIENCE */
-#experience, .footer{
+#experience,
+.footer {
   background-image: linear-gradient(90deg, #5318eb, #ab6ef9);
   font-family: "Maven Pro", sans-serif;
   color: white;
   position: relative;
   overflow: hidden;
 }
-#experience{
+
+#experience {
   padding-bottom: 3rem;
 
 }
-#experience .heading{
+
+#experience .heading {
   color: #fff;
 }
+
 /* EXPERIENCE */

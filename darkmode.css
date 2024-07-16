@@ -34,8 +34,8 @@ body.dark-mode {
   color: #6b53ff;
 }
 .site-color-bg {
-  background-color: #6b53ff;
-  color: #fff;
+  background-color: #6b53ff !important;
+  color: #fff !important;
 }
 
 .hero-banner .cta-btn {
