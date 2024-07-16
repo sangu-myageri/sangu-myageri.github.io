@@ -6,7 +6,9 @@ body {
   font-weight: 600;
   font-size: 20px;
 }
-
+a{
+  text-decoration: none;
+}
 img {
   max-width: 100%;
   height: auto;
