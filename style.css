@@ -240,6 +240,17 @@ body {
   transform: translateY(calc(200px - 100%));
   transition: transform 15s ease;
 }
+#social-media {
+  text-align: center;
+}
+#social-media a {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #6b53ff;
+}
 
 .project-card {
   border-radius: 15px;
