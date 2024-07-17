@@ -63,8 +63,9 @@ body.dark-mode {
   background-color: #333333;
   color: #ffffff;
 }
-
-/* Modify other elements as needed for dark mode */
+.dark-mode #dark-mode-toggle {
+  transform: rotate(180deg);
+}
 .hero-banner.dark-mode {
   background-image: linear-gradient(90deg, #1f1f1f, #3a3a3a);
 }
