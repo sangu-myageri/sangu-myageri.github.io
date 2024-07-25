@@ -395,7 +395,7 @@ body {
   .marquee-item {
     width: 300px;
   }
-  .experience-btn span{
+  .cta-btn span{
     display: none;
   }
 }
