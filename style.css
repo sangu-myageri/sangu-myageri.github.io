@@ -334,7 +334,7 @@ body {
   z-index: 2;
 }
 
-.hero-banner .cta-btn {
+ .cta-btn {
   font-size: 1rem;
   color: #6b53ff;
   background-color: #fff;
@@ -347,10 +347,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.hero-banner .cta-btn:hover {
+.cta-btn:hover {
   background-color: #6b53ff;
   color: #fff;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 @media (max-width: 768px) {
@@ -375,7 +375,7 @@ body {
     font-size: 1rem;
   }
 
-  .hero-banner .cta-btn {
+  .cta-btn {
     font-size: 1rem;
     padding: 10px 15px;
   }
@@ -519,20 +519,18 @@ body {
 
 /* new */
 
-.experience-btn {
-  padding: .5rem 1rem;
-  color: #6b53ff;
-  text-decoration: none;
+#experience .cta-btn {
+  margin-right: 20px;
   background: none;
-  border: none;
-  font-family: "Maven Pro", sans-serif;
-  font-weight: 600;
+  color:#fff;
+  font-size: 18px !important;
 }
-
-.experience-btn.active {
-  color: #fff;
-  background-color: #6b53ff;
+.cta-btn.active {
+  color: #6b53ff !important;
+  background-color: #fff !important;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
-
+.dark-mode .cta-btn {
+  color: #6b53ff !important;
+}
 /* EXPERIENCE */
