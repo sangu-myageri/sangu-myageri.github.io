@@ -37,12 +37,33 @@ $(document).ready(function () {
     $('.project-card').addClass('site-color-bg').removeClass('black-bg');
   }
 
-  // Check if dark mode is enabled in local storage
-  if (localStorage.getItem('darkMode') === 'enabled') {
+  // // Check if dark mode is enabled in local storage
+  // if (localStorage.getItem('darkMode') === 'enabled') {
+  //   applyDarkMode();
+  // }
+
+  // // Dark mode toggle
+  // $('#dark-mode-toggle').click(function (e) {
+  //   e.preventDefault();
+  //   if ($('body').hasClass('dark-mode')) {
+  //     removeDarkMode();
+  //     localStorage.setItem('darkMode', 'disabled');
+  //   } else {
+  //     applyDarkMode();
+  //     localStorage.setItem('darkMode', 'enabled');
+  //   }
+  // });
+
+  const darkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
+
+  if (darkModeEnabled) {
     applyDarkMode();
+    $('.light-mode-image').hide();
+  } else {
+    removeDarkMode();
+    $('.dark-mode-image').hide();
   }
 
-  // Dark mode toggle
   $('#dark-mode-toggle').click(function (e) {
     e.preventDefault();
     if ($('body').hasClass('dark-mode')) {
@@ -52,6 +73,8 @@ $(document).ready(function () {
       applyDarkMode();
       localStorage.setItem('darkMode', 'enabled');
     }
+    $('.light-mode-image, .dark-mode-image').toggle();
+    localStorage.setItem('darkMode', $('body').hasClass('dark-mode') ? 'enabled' : 'disabled');
   });
 
   var navbarBrand = $('.navbar-brand');
