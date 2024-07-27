@@ -69,6 +69,10 @@ body {
     align-items: center;
   }
 
+  .about-circle-img {
+    text-align: center;
+  }
+
   .offcanvas-collapse {
     position: fixed;
     top: 56px;
@@ -334,7 +338,7 @@ body {
   z-index: 2;
 }
 
- .cta-btn {
+.cta-btn {
   font-size: 1rem;
   color: #6b53ff;
   background-color: #fff;
@@ -395,7 +399,8 @@ body {
   .marquee-item {
     width: 300px;
   }
-  .cta-btn span{
+
+  .cta-btn span {
     display: none;
   }
 }
@@ -425,7 +430,8 @@ body {
   .about-line-3 {
     font-size: 40px;
   }
-  .experience-year{
+
+  .experience-year {
     display: none;
   }
 }
@@ -522,15 +528,18 @@ body {
 #experience .cta-btn {
   margin-right: 20px;
   background: none;
-  color:#fff;
+  color: #fff;
   font-size: 18px !important;
 }
+
 .cta-btn.active {
   color: #6b53ff !important;
   background-color: #fff !important;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
+
 .dark-mode .cta-btn {
   color: #6b53ff !important;
 }
+
 /* EXPERIENCE */
