@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90df1587.css",
-    "main.js": "/static/js/main.5992d464.js",
+    "main.js": "/static/js/main.aa61d39a.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/superem-packers-movers.png": "/static/media/superem-packers-movers.c861b41f9612b2d2cf7a.png",
     "static/media/opendata-portal.png": "/static/media/opendata-portal.de86e707b7549d4c423e.png",
@@ -10,11 +10,11 @@
     "static/media/dark-mode.svg": "/static/media/dark-mode.b824ae09d85451471bf60bb78103b95a.svg",
     "index.html": "/index.html",
     "main.90df1587.css.map": "/static/css/main.90df1587.css.map",
-    "main.5992d464.js.map": "/static/js/main.5992d464.js.map",
+    "main.aa61d39a.js.map": "/static/js/main.aa61d39a.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90df1587.css",
-    "static/js/main.5992d464.js"
+    "static/js/main.aa61d39a.js"
   ]
 }
