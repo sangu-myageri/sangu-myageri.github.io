@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.c71c2f69.css",
-    "main.js": "/static/js/main.80a148ee.js",
+    "main.css": "/static/css/main.d7368f0e.css",
+    "main.js": "/static/js/main.5377cb53.js",
     "static/css/814.23b427b7.chunk.css": "/static/css/814.23b427b7.chunk.css",
     "static/js/814.33150f6b.chunk.js": "/static/js/814.33150f6b.chunk.js",
-    "static/css/840.8681884c.chunk.css": "/static/css/840.8681884c.chunk.css",
-    "static/js/840.11636467.chunk.js": "/static/js/840.11636467.chunk.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/superem-packers-movers.png": "/static/media/superem-packers-movers.c861b41f9612b2d2cf7a.png",
     "static/media/opendata-portal.png": "/static/media/opendata-portal.de86e707b7549d4c423e.png",
@@ -13,16 +11,14 @@
     "static/media/light-mode.svg": "/static/media/light-mode.54564f210b8c91c536f91bc11e70e6f6.svg",
     "index.html": "/index.html",
     "static/media/dark-mode.svg": "/static/media/dark-mode.b824ae09d85451471bf60bb78103b95a.svg",
-    "main.c71c2f69.css.map": "/static/css/main.c71c2f69.css.map",
-    "main.80a148ee.js.map": "/static/js/main.80a148ee.js.map",
+    "main.d7368f0e.css.map": "/static/css/main.d7368f0e.css.map",
+    "main.5377cb53.js.map": "/static/js/main.5377cb53.js.map",
     "814.23b427b7.chunk.css.map": "/static/css/814.23b427b7.chunk.css.map",
     "814.33150f6b.chunk.js.map": "/static/js/814.33150f6b.chunk.js.map",
-    "840.8681884c.chunk.css.map": "/static/css/840.8681884c.chunk.css.map",
-    "840.11636467.chunk.js.map": "/static/js/840.11636467.chunk.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c71c2f69.css",
-    "static/js/main.80a148ee.js"
+    "static/css/main.d7368f0e.css",
+    "static/js/main.5377cb53.js"
   ]
 }
