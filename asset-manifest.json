@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea49f241.css",
-    "main.js": "/static/js/main.7943dc36.js",
-    "static/css/814.23b427b7.chunk.css": "/static/css/814.23b427b7.chunk.css",
-    "static/js/814.fcd0ffb7.chunk.js": "/static/js/814.fcd0ffb7.chunk.js",
-    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "static/media/superem-packers-movers.png": "/static/media/superem-packers-movers.c861b41f9612b2d2cf7a.png",
-    "static/media/opendata-portal.png": "/static/media/opendata-portal.de86e707b7549d4c423e.png",
-    "static/media/investment-calculator-logo.png": "/static/media/investment-calculator-logo.c20da4d5b23f8d49ad00.png",
-    "static/media/profile-Photoroom.jpg": "/static/media/profile-Photoroom.20fe4cda75cfad026dd5.jpg",
-    "static/media/light-mode.svg": "/static/media/light-mode.54564f210b8c91c536f91bc11e70e6f6.svg",
-    "index.html": "/index.html",
-    "static/media/dark-mode.svg": "/static/media/dark-mode.b824ae09d85451471bf60bb78103b95a.svg",
-    "main.ea49f241.css.map": "/static/css/main.ea49f241.css.map",
-    "main.7943dc36.js.map": "/static/js/main.7943dc36.js.map",
-    "814.23b427b7.chunk.css.map": "/static/css/814.23b427b7.chunk.css.map",
-    "814.fcd0ffb7.chunk.js.map": "/static/js/814.fcd0ffb7.chunk.js.map",
-    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+    "main.css": "/investment-calculator/static/css/main.ea49f241.css",
+    "main.js": "/investment-calculator/static/js/main.e171713b.js",
+    "static/css/814.23b427b7.chunk.css": "/investment-calculator/static/css/814.23b427b7.chunk.css",
+    "static/js/814.fcd0ffb7.chunk.js": "/investment-calculator/static/js/814.fcd0ffb7.chunk.js",
+    "static/js/453.68693753.chunk.js": "/investment-calculator/static/js/453.68693753.chunk.js",
+    "static/media/superem-packers-movers.png": "/investment-calculator/static/media/superem-packers-movers.c861b41f9612b2d2cf7a.png",
+    "static/media/opendata-portal.png": "/investment-calculator/static/media/opendata-portal.de86e707b7549d4c423e.png",
+    "static/media/investment-calculator-logo.png": "/investment-calculator/static/media/investment-calculator-logo.c20da4d5b23f8d49ad00.png",
+    "static/media/profile-Photoroom.jpg": "/investment-calculator/static/media/profile-Photoroom.20fe4cda75cfad026dd5.jpg",
+    "static/media/light-mode.svg": "/investment-calculator/static/media/light-mode.54564f210b8c91c536f91bc11e70e6f6.svg",
+    "index.html": "/investment-calculator/index.html",
+    "static/media/dark-mode.svg": "/investment-calculator/static/media/dark-mode.b824ae09d85451471bf60bb78103b95a.svg",
+    "main.ea49f241.css.map": "/investment-calculator/static/css/main.ea49f241.css.map",
+    "main.e171713b.js.map": "/investment-calculator/static/js/main.e171713b.js.map",
+    "814.23b427b7.chunk.css.map": "/investment-calculator/static/css/814.23b427b7.chunk.css.map",
+    "814.fcd0ffb7.chunk.js.map": "/investment-calculator/static/js/814.fcd0ffb7.chunk.js.map",
+    "453.68693753.chunk.js.map": "/investment-calculator/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea49f241.css",
-    "static/js/main.7943dc36.js"
+    "static/js/main.e171713b.js"
   ]
 }
