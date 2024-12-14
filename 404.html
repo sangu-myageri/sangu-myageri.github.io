@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="refresh" content="0; url=/#/" />
-</head>
-<body></body>
+  <head>
+    <script>
+      // Redirect only if the path is not the base or an existing path
+      const redirectTo = window.location.pathname.startsWith('/investment-calculator')
+        ? '/investment-calculator'
+        : '/';
+
+      window.location.replace(`${redirectTo}#${window.location.pathname}${window.location.search}`);
+    </script>
+  </head>
+  <body></body>
 </html>
